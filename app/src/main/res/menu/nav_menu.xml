@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Akun Saya" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_message"
+            android:title="Dukungan" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="Pengaturan" />
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@drawable/ic_house"
+            android:title="Alarm"/>
+    </group>
+</menu>
